@@ -1,0 +1,47 @@
+{
+    "name": "ramracing/mustache-file-array-loader",
+    "type": "library",
+    "description": "Template loader for Mustache.php that uses an array of files.",
+    "keywords": [
+        ":vendor",
+        ":package_name"
+    ],
+    "homepage": "https://github.com/ramracing/mustache-file-array-loader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ram Racing",
+            "email": "security@ramracing.org",
+            "homepage": "http://ramracing.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+        "mustache/mustache": "^2.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "5.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3",
+        "mikey179/vfsStream": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "RamRacing\\Mustache\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RamRacing\\Mustache\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
