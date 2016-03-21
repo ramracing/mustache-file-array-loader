@@ -3,8 +3,10 @@
     "type": "library",
     "description": "Template loader for Mustache.php that uses an array of files.",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "ramracing",
+        "mustache-file-array-loader",
+        "mustache",
+        "mustache.php"
     ],
     "homepage": "https://github.com/ramracing/mustache-file-array-loader",
     "license": "MIT",
