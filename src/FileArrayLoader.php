@@ -76,4 +76,3 @@ class FileArrayLoader implements Mustache_Loader
         return $file;
     }
 }
-
