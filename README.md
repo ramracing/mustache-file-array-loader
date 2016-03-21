@@ -44,7 +44,7 @@ If you discover any security related issues, please email security@ramracing.org
 
 ## Credits
 
-- [Ram Racing][https://ramracing.org]
+- [Ram Racing]
 - [All Contributors][link-contributors]
 
 ## License
@@ -67,3 +67,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-contributors]: ../../contributors
 
 [Mustache.php]: https://github.com/bobthecow/mustache.php
+[Ram Racing]: https://ramracing.org
